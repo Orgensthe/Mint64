@@ -1,0 +1,3 @@
+/Users/jeff/Desktop/workspace/personal/git/Mint64/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/jeff/Desktop/workspace/personal/git/Mint64/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/jeff/Desktop/workspace/personal/git/Mint64/cmake-build-debug/CMakeFiles/Mint64.dir
