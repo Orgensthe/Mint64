@@ -3,7 +3,7 @@
 
 SECTION .text
 
-jump $
+jmp $
 
 times 510 - ( $ -$$) db 0x00
 
