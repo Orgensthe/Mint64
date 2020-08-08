@@ -84,9 +84,6 @@
 		<Unit filename="/Users/jeff/Desktop/workspace/personal/git/Mint64/library.h">
 			<Option target="Mint64"/>
 		</Unit>
-		<Unit filename="/Users/jeff/Desktop/workspace/personal/git/Mint64/test/test.c">
-			<Option target="Mint64"/>
-		</Unit>
 		<Unit filename="/Users/jeff/Desktop/workspace/personal/git/Mint64/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

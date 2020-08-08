@@ -150,33 +150,6 @@ library.c.s:
 	$(MAKE) -f CMakeFiles/Mint64.dir/build.make CMakeFiles/Mint64.dir/library.c.s
 .PHONY : library.c.s
 
-test/test.o: test/test.c.o
-
-.PHONY : test/test.o
-
-# target to build an object file
-test/test.c.o:
-	$(MAKE) -f CMakeFiles/Mint64.dir/build.make CMakeFiles/Mint64.dir/test/test.c.o
-.PHONY : test/test.c.o
-
-test/test.i: test/test.c.i
-
-.PHONY : test/test.i
-
-# target to preprocess a source file
-test/test.c.i:
-	$(MAKE) -f CMakeFiles/Mint64.dir/build.make CMakeFiles/Mint64.dir/test/test.c.i
-.PHONY : test/test.c.i
-
-test/test.s: test/test.c.s
-
-.PHONY : test/test.s
-
-# target to generate assembly for a file
-test/test.c.s:
-	$(MAKE) -f CMakeFiles/Mint64.dir/build.make CMakeFiles/Mint64.dir/test/test.c.s
-.PHONY : test/test.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -189,9 +162,6 @@ help:
 	@echo "... library.o"
 	@echo "... library.i"
 	@echo "... library.s"
-	@echo "... test/test.o"
-	@echo "... test/test.i"
-	@echo "... test/test.s"
 .PHONY : help
 
 

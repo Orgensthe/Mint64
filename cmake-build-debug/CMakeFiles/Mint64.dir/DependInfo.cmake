@@ -5,7 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/jeff/Desktop/workspace/personal/git/Mint64/library.c" "/Users/jeff/Desktop/workspace/personal/git/Mint64/cmake-build-debug/CMakeFiles/Mint64.dir/library.c.o"
-  "/Users/jeff/Desktop/workspace/personal/git/Mint64/test/test.c" "/Users/jeff/Desktop/workspace/personal/git/Mint64/cmake-build-debug/CMakeFiles/Mint64.dir/test/test.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

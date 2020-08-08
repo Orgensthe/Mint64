@@ -70,32 +70,17 @@ CMakeFiles/Mint64.dir/library.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Mint64.dir/library.c.s"
 	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jeff/Desktop/workspace/personal/git/Mint64/library.c -o CMakeFiles/Mint64.dir/library.c.s
 
-CMakeFiles/Mint64.dir/test/test.c.o: CMakeFiles/Mint64.dir/flags.make
-CMakeFiles/Mint64.dir/test/test.c.o: ../test/test.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/jeff/Desktop/workspace/personal/git/Mint64/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Mint64.dir/test/test.c.o"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Mint64.dir/test/test.c.o   -c /Users/jeff/Desktop/workspace/personal/git/Mint64/test/test.c
-
-CMakeFiles/Mint64.dir/test/test.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Mint64.dir/test/test.c.i"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/jeff/Desktop/workspace/personal/git/Mint64/test/test.c > CMakeFiles/Mint64.dir/test/test.c.i
-
-CMakeFiles/Mint64.dir/test/test.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Mint64.dir/test/test.c.s"
-	/Library/Developer/CommandLineTools/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/jeff/Desktop/workspace/personal/git/Mint64/test/test.c -o CMakeFiles/Mint64.dir/test/test.c.s
-
 # Object files for target Mint64
 Mint64_OBJECTS = \
-"CMakeFiles/Mint64.dir/library.c.o" \
-"CMakeFiles/Mint64.dir/test/test.c.o"
+"CMakeFiles/Mint64.dir/library.c.o"
 
 # External object files for target Mint64
 Mint64_EXTERNAL_OBJECTS =
 
 libMint64.a: CMakeFiles/Mint64.dir/library.c.o
-libMint64.a: CMakeFiles/Mint64.dir/test/test.c.o
 libMint64.a: CMakeFiles/Mint64.dir/build.make
 libMint64.a: CMakeFiles/Mint64.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jeff/Desktop/workspace/personal/git/Mint64/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library libMint64.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/jeff/Desktop/workspace/personal/git/Mint64/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C static library libMint64.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/Mint64.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Mint64.dir/link.txt --verbose=$(VERBOSE)
 
