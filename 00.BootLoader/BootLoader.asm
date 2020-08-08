@@ -3,10 +3,10 @@
 
 SECTION .text
 
-jmp 0x07c0:START
+jmp 0x07C0:START
 
 START:
-	mov ax, 0x07c0
+	mov ax, 0x07C0
 	mov ds, ax
 	mov ax, 0xB800
 	mov es, ax
